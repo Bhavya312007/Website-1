@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(183, 200, 209);
+}
+
+.heading {
+  color: blue;
+  font-size: 55px;
+}
+
+.types {
+  color: crimson;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 30px;
+}
+
+#main {
+  color: rgb(195, 122, 27);
+  text-decoration: double underline rgb(54, 9, 9);
+}
+
+form {
+  width: 100vw;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 40px;
+  margin: 40px 100px;
+  padding: 50px;
+}
+
+form * {
+  margin: 5px;
+}
+
+input[type="submit"] {
+  /*font-size: 30px;*/
+  text-align: center;
+}
+
+form div input {
+  font-size: 10px;
+}
+
+.end {
+  background-color: crimson;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(20, 160, 220);
+}
